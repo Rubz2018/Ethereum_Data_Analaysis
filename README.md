@@ -50,3 +50,13 @@ This repository has been created for the purpose of Ethereum Blockchain data ana
   - Update the [task-table](./src/tasks/README.md#task-table) whenever a task is created and explain the purpose and goals of the task to others.
 - Visualization     - Folder to store dashboards, analysis and visualization reports
 - Results           - Folder to store final analysis modelling results for the project.
+
+## Research motivation :
+    Network|- Graph analysis
+ Properties| - User analysis
+           |- DeFi & NFT analysis
+    Machine Learning : - User Cluster
+                       - Anomaly Detection
+                       - etc.
+    Modeling and Simulation : - Gas claculation
+                              - Burn mechanism
