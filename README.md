@@ -52,11 +52,11 @@ This repository has been created for the purpose of Ethereum Blockchain data ana
 - Results           - Folder to store final analysis modelling results for the project.
 
 ## Research motivation :
-    Network|- Graph analysis
- Properties| - User analysis
+- Network  |- Graph analysis
+ Properties|- User analysis
            |- DeFi & NFT analysis
-    Machine Learning : - User Cluster
-                       - Anomaly Detection
-                       - etc.
-    Modeling and Simulation : - Gas claculation
-                              - Burn mechanism
+- Machine Learning |- User Cluster Analysis
+                   |- Anomaly Detection(Illicit transaction detection)
+                       
+- Modeling and Simulation |- Gas claculation
+                          |- Burn mechanism
