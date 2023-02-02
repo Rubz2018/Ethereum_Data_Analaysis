@@ -1,4 +1,4 @@
-# Ethereum Data Analysis dataset selection and maintenance guidelines:
+# Ethereum dataset selection and maintenance guidelines:
  - Time period - From 2015 to data. Full up to date blockchain data.
  - The dataset needs to be authentic and reliable to do research.
  -  Needs to be properly pre-processed.
