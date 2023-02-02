@@ -6,7 +6,7 @@
 
 ## Tagetted Attributes:
 The following attributes are taken from the kaggle dataset uaing bigquery(https://www.kaggle.com/datasets/bigquery/ethereum-blockchain).The attributes needs to be assigned as lowercase in the dataframe table. We might have to use GitHub repo(https://github.com/medvedev1088/ethereum-etl) to download the ethereum on chain data by installing Geth and downloading it locally.  
-- Blocks    
+- Blocks:    
 The Ethereum blockchain is composed of a series of blocks. This table contains a set of all blocks in the blockchain and their attributes.
             |- timestamp
             |- block Number
@@ -23,7 +23,7 @@ The Ethereum blockchain is composed of a series of blocks. This table contains a
             |- gas_limit
             |- gas_used
             |- transaction_count
-- Contracts 
+- Contracts: 
 Some transactions create smart contracts from their input bytes, and this smart contract is stored at a particular 20-byte address.
             |- contract_address
             |- is_erc20
@@ -31,7 +31,7 @@ Some transactions create smart contracts from their input bytes, and this smart 
             |- block_timestamp
             |- block_number
             |- block_hash
-- Token Transafer
+- Token Transafer:
 The most popular type of transaction on the Ethereum blockchain invokes a contract of type ERC20 to perform a transfer operation, moving some number of tokens from one 20-byte address to another 20-byte address.
 The following attributes contain the subset of those transactions and has further processed and denormalized the data to make it easier to consume for analysis of token transfer events.
                   |- token_address
@@ -42,7 +42,7 @@ The following attributes contain the subset of those transactions and has furthe
                   |- block_timestamp
                   |- block_number
                   |- block_hash
-- tokens: 
+- Tokens: 
 Token data.
                 |- address
                 |- token_name
@@ -51,10 +51,11 @@ Token data.
                 |- block_timestamp
                 |- block_number
                 |- block_hash
--  traces:
+-  Traces:
     Need to get clear ideas about what traces represent.
 
--  transactions: 
+-  Transactions: 
+This table contains a set of all transactions from all blocks, and contains a block identifier to get associated block-specific information associated with each transaction. 
                 |- hash
                 |- nonce
                 |- transaction_index
